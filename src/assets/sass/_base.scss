@@ -1,0 +1,220 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    nav{
+        background-color: white;
+        .navbar-brand{
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .navbar-collapse{
+            .navbar-nav{
+                .nav-item{
+                    a{
+                        font-size: 20px;
+                        color: black;
+                        font-weight: 500;
+
+                        &.active{
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.about{
+        align-items: flex-start;
+        padding-top: 100px;
+        .main-container{
+            width: 90%;
+
+            @include md {
+                width: 70%;
+            }
+
+            @include xl {
+                width: 55%;
+            }
+        }
+    }
+
+    &.portfolio{
+        align-items: flex-start;
+        padding-top: 100px;
+        .main-container{
+            width: 95%;
+            @include xl {
+                width: 55%;
+            }
+        }
+    }
+    
+    .main-container{
+        padding: 20px;
+
+        .greeting, .what-i-do{
+            .hello{
+                font-size: 26px;
+                @include md {
+                    font-size: 40px;
+                }
+
+                font-weight: 600;
+
+                .code-icon{
+                    padding-right: 5px;
+                }
+            }
+            .name{
+                font-size: 32px;
+                @include md {
+                    font-size: 60px;
+                }
+
+                font-weight: 600;
+            }
+            .description{
+                font-size: 14px;
+                @include md {
+                    font-size: 24px;
+                }
+
+                font-weight: 600;
+            }
+            .cta{
+                display: flex;
+                flex-direction: column;
+                width: 130px;
+                width: max-content;
+
+                @include md {
+                    flex-direction: row;
+                }
+
+                padding-top: 25px;
+                a {
+                    margin-top: 7px;
+                    margin-right: 10px;
+                    font-size: 20px;
+                }
+            }
+
+            .about-me-text{
+                padding-top: 25px;
+                font-size: 20px;
+
+                span a{
+                    color: black;
+                    text-decoration: none;
+                    font-weight: 700;
+                }
+
+                .stay-tuned{
+                    padding-top: 25px;
+                }
+            }
+
+            .portfolio-landing-container{
+                margin-top: 50px;
+
+                .portfolio-card{
+                    transition: box-shadow .3s;
+
+                    .portfolio-card-image{
+                        height: 175px;
+                        background-color: black;
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        @include xl {
+                            width: 355px;
+                        }
+
+                        &__text{
+                            font-family: 'Luckiest Guy';
+                            color: white;
+                            font-size: 35px;
+                        }
+                    }
+
+                    .portfolio-link{
+                        color: #6c757d;
+                        text-decoration: none;
+
+                        &:hover{
+                            color: black;
+                        }
+                    }
+
+                    &:hover{
+                        box-shadow: 0 0 11px rgba(33,33,33,.2) !important; 
+                    }
+
+                    .mb-15{
+                        margin-bottom: 15px;
+                    }
+                }
+
+                .portfolio-card-link{
+                    text-decoration: none;
+                    color: inherit;
+                }
+            }
+
+            .radio-container{
+                .radio{
+                    display: flex;
+                    justify-content: center;
+
+                    margin: 25px 0 25px 0;
+                }
+            }
+        }
+
+        .what-i-do{
+            padding-top: 25px;
+        }
+    }
+}
+
+
+.social-container{
+    display: flex;
+    justify-content: start;    
+    max-width: 100%;
+
+    .social{
+        a{
+            color: black;
+            padding: 5px;
+            text-decoration: none;
+
+            svg {
+                font-size: 25px;
+
+                &:hover{
+                    color: #808080
+                }
+            }
+        }
+    }
+}
+
+.justify{
+    text-align: justify;
+}

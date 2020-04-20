@@ -35,11 +35,19 @@ let router = new Router({
             component: () =>
                 import( /* webpackChunkName: "About" */ "./pages/CoolStuff.vue"),
         },
+
+        //Portfolio
         {
             path: "/portfolio",
             name: "portfolio",
             component: () =>
-                import( /* webpackChunkName: "About" */ "./pages/Portfolio.vue"),
+                import( /* webpackChunkName: "About" */ "./pages/portfolio/Portfolio.vue"),
+        },
+        {
+            path: "/portfolio/friction",
+            name: "portfolio-friction",
+            component: () =>
+                import( /* webpackChunkName: "About" */ "./pages/portfolio/Friction.vue"),
         },
     ],
 });

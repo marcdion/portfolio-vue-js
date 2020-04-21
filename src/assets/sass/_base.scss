@@ -5,6 +5,7 @@ body {
 header {
   nav {
     background-color: white;
+
     .navbar-brand {
       font-size: 24px;
       font-weight: 700;
@@ -38,6 +39,7 @@ header {
   &.about {
     align-items: flex-start;
     padding-top: 100px;
+
     .main-container {
       width: 90%;
 
@@ -54,8 +56,10 @@ header {
   &.portfolio {
     align-items: flex-start;
     padding-top: 100px;
+
     .main-container {
       width: 95%;
+
       @include xl {
         width: 55%;
       }
@@ -69,6 +73,7 @@ header {
     .what-i-do {
       .hello {
         font-size: 26px;
+
         @include md {
           font-size: 40px;
         }
@@ -79,22 +84,27 @@ header {
           padding-right: 5px;
         }
       }
+
       .name {
         font-size: 32px;
+
         @include md {
           font-size: 60px;
         }
 
         font-weight: 600;
       }
+
       .description {
         font-size: 14px;
+
         @include md {
           font-size: 24px;
         }
 
         font-weight: 600;
       }
+
       .cta {
         display: flex;
         flex-direction: column;
@@ -106,6 +116,7 @@ header {
         }
 
         padding-top: 25px;
+
         a {
           margin-top: 7px;
           margin-right: 10px;
@@ -141,10 +152,6 @@ header {
             display: flex;
             justify-content: center;
             align-items: center;
-
-            @include xl {
-              width: 355px;
-            }
 
             &__text {
               font-family: "Luckiest Guy";
@@ -217,4 +224,8 @@ header {
 
 .justify {
   text-align: justify;
+}
+
+.portfolio-item-spacing {
+  margin-bottom: 150px;
 }

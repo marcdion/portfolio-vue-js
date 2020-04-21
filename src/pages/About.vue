@@ -1,5 +1,5 @@
 <template>
-    <layout :classes="classes" :secondaryNav="true" routeName="about">
+    <layout :classes="classes" :secondaryNav="true" routeName="/about">
         <div class="greeting">
             <div class="hello">👋 A little about me</div>
 
@@ -40,10 +40,10 @@
                 <p class="justify">
                     When i'm not working on my personnal projects
                     <span>
-                        <a href="./portfolio/landing.html">
+                        <router-link to="/portfolio">
                             (you can
                             learn more here)
-                        </a>
+                        </router-link>
                     </span>,
                     I spend my winters on the ski slopes, my summers on my road bike,
                     and all the time in between with my wonderful girlfriend!

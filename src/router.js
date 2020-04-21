@@ -41,13 +41,37 @@ let router = new Router({
             path: "/portfolio",
             name: "portfolio",
             component: () =>
-                import( /* webpackChunkName: "About" */ "./pages/portfolio/Portfolio.vue"),
+                import( /* webpackChunkName: "Portfolio" */ "./pages/portfolio/Portfolio.vue"),
         },
         {
             path: "/portfolio/friction",
             name: "portfolio-friction",
             component: () =>
-                import( /* webpackChunkName: "About" */ "./pages/portfolio/Friction.vue"),
+                import( /* webpackChunkName: "Friction" */ "./pages/portfolio/Friction.vue"),
+        },
+        {
+            path: "/portfolio/cache",
+            name: "portfolio-cache",
+            component: () =>
+                import( /* webpackChunkName: "Cache" */ "./pages/portfolio/Cache.vue"),
+        },
+        {
+            path: "/portfolio/pci",
+            name: "portfolio-pci",
+            component: () =>
+                import( /* webpackChunkName: "PCI" */ "./pages/portfolio/PCI.vue"),
+        },
+        {
+            path: "/portfolio/xml",
+            name: "portfolio-xml",
+            component: () =>
+                import( /* webpackChunkName: "PCI" */ "./pages/portfolio/XML.vue"),
+        },
+        {
+            path: "/portfolio/website",
+            name: "portfolio-website",
+            component: () =>
+                import( /* webpackChunkName: "PCI" */ "./pages/portfolio/Website.vue"),
         },
     ],
 });

@@ -1,5 +1,5 @@
 <template>
-    <layout :classes="classes" :secondaryNav="true" routeName="portfolio">
+    <layout :classes="classes" :secondaryNav="true" routeName="/portfolio">
         <div class="greeting">
             <div class="hello">⌚ Friction</div>
 
@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <div class="what-i-do">
+        <div class="what-i-do portfolio-item-spacing">
             <div class="hello">Technical stuff</div>
 
             <div class="about-me-text">

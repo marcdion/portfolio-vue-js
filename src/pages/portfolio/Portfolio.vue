@@ -1,5 +1,5 @@
 <template>
-    <layout :classes="classes" :secondaryNav="true" routeName="portfolio">
+    <layout :classes="classes" :secondaryNav="true" routeName="/portfolio">
         <div class="greeting" style="padding-bottom: 150px;">
             <div class="hello">
                 <i class="fas fa-code-branch code-icon"></i> Personnal projects
@@ -21,7 +21,7 @@
                         </div>
                     </portfolio-item>
 
-                    <portfolio-item title="Cache">
+                    <portfolio-item title="Cache" route="portfolio-cache">
                         <p class="card-text">
                             Cache is a money management tool I am currently building
                             for myself
@@ -31,7 +31,7 @@
                         </div>
                     </portfolio-item>
 
-                    <portfolio-item title="PCI">
+                    <portfolio-item title="PCI" route="portfolio-pci">
                         <p class="card-text mb-15">
                             PCI is an app used by restaurants to
                             place orders at their chains distribution center!
@@ -41,7 +41,7 @@
                         </div>
                     </portfolio-item>
 
-                    <portfolio-item title="XML Diff tool">
+                    <portfolio-item title="XML Diff tool" route="portfolio-xml">
                         <p class="card-text mb-15">
                             XML localization diff is a tool I built that helps me
                             manage XML localization files
@@ -53,7 +53,11 @@
                         </div>
                     </portfolio-item>
 
-                    <portfolio-item title="Pidz">
+                    <portfolio-item
+                        title="Pidz"
+                        route="https://www.pidz.ca/"
+                        :overrideRouteObject="true"
+                    >
                         <p class="card-text mb-15">
                             This a website I built for a local restaurant chain
                             called
@@ -64,7 +68,7 @@
                         </div>
                     </portfolio-item>
 
-                    <portfolio-item title="Website & Blog">
+                    <portfolio-item title="Website & Blog" route="portfolio-website">
                         <p class="card-text">The website you are currently on showcasing my work :)</p>
                         <div class="d-flex justify-content-start align-items-center">
                             <div class="d-flex justify-content-between align-items-center">

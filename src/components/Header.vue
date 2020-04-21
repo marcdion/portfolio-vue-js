@@ -7,30 +7,30 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <router-link
-                            to="about"
+                            to="/about"
                             class="nav-link"
-                            v-bind:class="{'active': setActive('about')}"
+                            v-bind:class="{'active': setActive('/about')}"
                         >About me</router-link>
                     </li>
                     <li class="nav-item">
                         <router-link
-                            to="portfolio"
+                            to="/portfolio"
                             class="nav-link"
-                            v-bind:class="{'active': setActive('portfolio')}"
+                            v-bind:class="{'active': setActive('/portfolio')}"
                         >Portfolio</router-link>
                     </li>
                     <li class="nav-item">
                         <router-link
-                            to="cool-stuff"
+                            to="/cool-stuff"
                             class="nav-link"
-                            v-bind:class="{'active': setActive('cool-stuff')}"
+                            v-bind:class="{'active': setActive('/cool-stuff')}"
                         >Cool stuff</router-link>
                     </li>
                     <li class="nav-item">
                         <router-link
                             to="contact"
                             class="nav-link"
-                            v-bind:class="{'active': setActive('contact')}"
+                            v-bind:class="{'active': setActive('/contact')}"
                         >Let's talk</router-link>
                     </li>
                 </ul>

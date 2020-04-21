@@ -1,5 +1,5 @@
 <template>
-    <layout :classes="classes" :secondaryNav="true" routeName="contact">
+    <layout :classes="classes" :secondaryNav="true" routeName="/contact">
         <div class="greeting">
             <div class="hello">🦜 Let's talk</div>
 

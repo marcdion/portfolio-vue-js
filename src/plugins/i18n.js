@@ -7,7 +7,7 @@ const messages = {
     'fr': {
 
     },
-    
+
     'en': {
 
     }

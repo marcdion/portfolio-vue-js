@@ -3,35 +3,60 @@
         <!-- Fixed navbar -->
         <nav class="navbar navbar-expand-md navbar-light fixed-top">
             <router-link to="/" class="navbar-brand">MAD</router-link>
-            <div v-if="secondaryNav" class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                    <li v-if="secondaryNav" class="nav-item">
                         <router-link
                             to="/about"
                             class="nav-link"
                             v-bind:class="{'active': setActive('/about')}"
-                        >About me</router-link>
+                        >{{$t('navAbout')}}</router-link>
                     </li>
-                    <li class="nav-item">
+                    <li v-if="secondaryNav" class="nav-item">
                         <router-link
                             to="/portfolio"
                             class="nav-link"
                             v-bind:class="{'active': setActive('/portfolio')}"
-                        >Portfolio</router-link>
+                        >{{$t('navPortfolio')}}</router-link>
                     </li>
-                    <li class="nav-item">
+                    <li v-if="secondaryNav" class="nav-item">
                         <router-link
                             to="/cool-stuff"
                             class="nav-link"
                             v-bind:class="{'active': setActive('/cool-stuff')}"
-                        >Cool stuff</router-link>
+                        >{{$t('navCoolStuff')}}</router-link>
                     </li>
-                    <li class="nav-item">
+                    <li v-if="secondaryNav" class="nav-item">
                         <router-link
                             to="contact"
                             class="nav-link"
                             v-bind:class="{'active': setActive('/contact')}"
-                        >Let's talk</router-link>
+                        >{{$t('navContact')}}</router-link>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdownLanguageLink"
+                            role="button"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >{{`${$t(currentLanguage)}`}}</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a
+                                id="set-language-fr"
+                                class="dropdown-item"
+                                href="#"
+                                v-on:click="setLocale('fr')"
+                            >{{$t('frLong')}}</a>
+                            <a
+                                id="set-language-en"
+                                class="dropdown-item"
+                                href="#"
+                                v-on:click="setLocale('en')"
+                            >{{$t('enLong')}}</a>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -40,6 +65,8 @@
 </template>
 
 <script>
+import i18n from "@/plugins/i18n";
+
 export default {
     name: "Header",
     props: {
@@ -52,9 +79,36 @@ export default {
             default: "landing"
         }
     },
+    data() {
+        return {
+            currentLanguage: "en"
+        };
+    },
     methods: {
         setActive(key) {
             return key == this.routeName;
+        },
+        setLocale(locale) {
+            i18n.locale = locale;
+            this.currentLanguage = locale;
+            localStorage.setItem("currentLanguage", this.currentLanguage);
+
+            this.$toasted.success(
+                `${this.$t("languageChangeFor")} ${this.$t(locale)} !`,
+                {
+                    theme: "bubble",
+                    position: "bottom-right",
+                    duration: 3000
+                }
+            );
+        }
+    },
+    mounted() {
+        if (localStorage.getItem("currentLanguage")) {
+            this.currentLanguage = localStorage.getItem("currentLanguage");
+            i18n.locale = this.currentLanguage;
+        } else {
+            localStorage.setItem("currentLanguage", this.currentLanguage);
         }
     }
 };

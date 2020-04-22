@@ -7,35 +7,29 @@
 
                 <div class="about-me-text">
                     <p class="justify">
-                        Being an avid fan of personnal finance improvement, I really needed a powerful money managment solution.
-                        Although there are a lot of very useful money managment tools out there, I don't really want to trust a certain
-                        corporation with the information regarding the institutions I bank with. They most certainly have more knowledge in
-                        cyber security than I do but buy building it for myself, I can do things the can't.
+                        {{$t('cacheP1')}}
                     </p>
 
                     <p class="justify">
-                        Here are the main features I want/am building:
+                        {{$t('cacheL1')}}
 
                         <ul>
-                            <li>A centralized platform where I can get a overview of all my finances</li>
-                            <li>An daily email that displays a resume of the past days transactions (I like to keep an eye on my $$$)</li>
-                            <li>A tool to better track my investments</li>
+                            <li>{{$t('cacheL1I1')}}</li>
+                            <li>{{$t('cacheL1I2')}}</li>
+                            <li>{{$t('cacheL1I3')}}</li>
                         </ul>
                     </p>
 
                     <p>
-                        The first two are pretty self explanatory. I'll dive in a little more detail in the last one as it is the source of this whole project.
-                        My banks do not offer a lot of details about my investment portfolio. I can see the value of each account at a given moment but that is pretty much it.
-                        I really wanted to be able to see a graph depicting the progression of my investments as the market is constantly shifting up and down. Thie feature is the one I am most
-                        excited about.
+                        {{$t('cacheP2')}}
                     </p>
 
                     <p class="justify">
-                        Here is what I focus on when I am building the software:
+                        {{$t('cacheL2')}}
                         <ul>
-                            <li>Flexibility that allows me to easily add new data sources in the future</li>
-                            <li>Ensuring my data is always very secure. I keep very minimal data in the database. I store the very sensitive information (login info) else where.</li>
-                            <li>Dividing my code up into easily maintainable and scalable micro services</li>
+                            <li>{{$t('cacheL1I1')}}</li>
+                            <li>{{$t('cacheL2I2')}}</li>
+                            <li>{{$t('cacheL2I3')}}</li>
                         </ul>
                     </p>
                 </div>
@@ -43,28 +37,28 @@
 
             <div class="what-i-do portfolio-item-spacing">
                 <div class="hello">
-                    Technical stuff
+                        {{$t('cacheTS')}}
                 </div>
                 
 
                 <div class="about-me-text">
                     <p>
-                       This is my first time using Docker and the micro services mindset in a "real world" setting. They are the two biggest challenges I am trying to overcome.
+                        {{$t('cacheL3')}}
                     </p>
 
                     <p>
-                        Here are some of the tools I am using:
+                        {{$t('cacheL3B')}}
                      </p>
 
                     <ul>
-                        <li>Python</li>
-                        <li>Postgres</li>
-                        <li>Vue Js</li>
-                        <li>Test driven development (this is always a must for me)</li>
+                            <li>{{$t('cacheL3I1')}}</li>
+                            <li>{{$t('cacheL3I2')}}</li>
+                            <li>{{$t('cacheL3I3')}}</li>
+                            <li>{{$t('cacheL3I4')}}</li>
                     </ul>
                     
                     <p class="stay-tuned">
-                        Stay tuned for updates !
+                        {{$t('stayTuned')}}
                     </p>
                 </div>
             </div>

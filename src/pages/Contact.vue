@@ -1,14 +1,10 @@
 <template>
     <layout :classes="classes" :secondaryNav="true" routeName="/contact">
         <div class="greeting">
-            <div class="hello">🦜 Let's talk</div>
+            <div class="hello">🦜 {{$t('letsTalkTitle')}}</div>
 
             <div class="about-me-text">
-                <p class="justify">
-                    If you find any of my stuff interesting, or you simply
-                    want to here some bad dad jokes, you can reach out via these
-                    methods:
-                </p>
+                <p class="justify">{{$t('letsTalkDesc')}}</p>
 
                 <div class="social-container">
                     <div class="social">

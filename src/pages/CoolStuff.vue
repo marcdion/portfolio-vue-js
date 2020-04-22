@@ -1,10 +1,10 @@
 <template>
     <layout :classes="classes" :secondaryNav="true" routeName="/cool-stuff">
         <div class="greeting">
-            <div class="hello">👋 Cool stuff</div>
+            <div class="hello">👋 {{$t('coolStuffTitle')}}</div>
 
             <div class="about-me-text">
-                <p>Here is some of the cool stuff I have accomplished / am part of:</p>
+                <p>{{$t('coolStuffDesc')}}</p>
             </div>
 
             <div class="container radio-container">
@@ -48,6 +48,13 @@ export default {
     name: "CoolStuff",
     components: {
         Layout
+    },
+    data() {
+        return {
+            classes: {
+                about: true
+            }
+        };
     }
 };
 </script>

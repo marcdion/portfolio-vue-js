@@ -4,56 +4,34 @@
             <div class="hello">⌚ Friction</div>
 
             <div class="about-me-text">
-                <p class="justify">
-                    Friction is a web broswer extension I am currently building that aims to
-                    improve users productivity. In the financial world, we talk about friction when
-                    we mean the efficiency of a transactions process. For example, Amazon's "One click to buy"
-                    has very minimal friction. On the other hand, a website that requires 7 steps before
-                    completing an order has a lot of friction.
-                </p>
+                <p class="justify">{{$t('frictionP1')}}</p>
 
-                <p class="justify">
-                    So the aim of this extension is to add friction between a user and a webiste he is trying to
-                    avoid using because it hampers on his productivity. It goes against most website blockers who
-                    literally prevents you from accessing a website.
-                </p>
+                <p class="justify">{{$t('frictionP2')}}</p>
 
-                <p class="justify">
-                    The idea came to me when I tried to reduce my Facebook usage. I found that by signing out of my
-                    account each time
-                    I used it added friction when I tried to go back and check my Facebook feed. The time it took me
-                    to
-                    retrieve my password and login was enough for my brain to remind me that I wasn't supposed to be
-                    there and so I went back to the task I was working on.
-                    This is where the idea for friction was born!
-                </p>
+                <p class="justify">{{$t('frictionP3')}}</p>
             </div>
         </div>
 
         <div class="what-i-do portfolio-item-spacing">
-            <div class="hello">Technical stuff</div>
+            <div class="hello">{{$t('frictionTS')}}</div>
 
             <div class="about-me-text">
                 <p>
-                    Nowadays, building extensions for web broswsers is pretty simple. You can learn more about in
-                    this very interesting article here:
+                    {{$t('frictionAB1')}}
                     <span>
                         <a
                             href="https://medium.com/better-programming/create-a-chrome-extension-using-react-and-typescript-50e94e14320c"
-                        >
-                            click
-                            me!
-                        </a>
+                        >{{$t('frictionClick')}}</a>
                     </span>
-                    After deploying my extension to major browser, I would love to able to integrate with Apple's Screen time functionnality to add another way of restricting users access.
+                    {{$t('frictionAB2')}}
                 </p>
-                <p>I am currently using these tools to build out the extensions for the different browsers:</p>
+                <p>{{$t('frictionL1')}}</p>
                 <ul>
-                    <li>TypeScript</li>
-                    <li>Vue Js</li>
-                    <li>Git</li>
+                    <li>{{$t('frictionL1I1')}}</li>
+                    <li>{{$t('frictionL1I2')}}</li>
+                    <li>{{$t('frictionL1I3')}}</li>
                 </ul>
-                <p class="stay-tuned">Stay tuned for updates !</p>
+                <p class="stay-tuned">{{$t('stayTuned')}}</p>
             </div>
         </div>
     </layout>

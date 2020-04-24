@@ -3,6 +3,17 @@
         <!-- Fixed navbar -->
         <nav class="navbar navbar-expand-md navbar-light fixed-top">
             <router-link to="/" class="navbar-brand">MAD</router-link>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarCollapse"
+                aria-controls="navbarCollapse"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li v-if="secondaryNav" class="nav-item">
@@ -32,6 +43,9 @@
                             class="nav-link"
                             v-bind:class="{'active': setActive('/contact')}"
                         >{{$t('navContact')}}</router-link>
+                    </li>
+                    <li v-if="secondaryNav" class="nav-item">
+                        <a href="https://blog.marcantoinedion.com" class="nav-link active">Blog</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a

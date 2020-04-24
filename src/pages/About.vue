@@ -24,7 +24,15 @@
                     ,
                     {{$t('aboutMeD3')}}
                 </p>
-                <p class="justify">{{$t('aboutMeD4')}}</p>
+                <p class="justify">
+                    {{$t('aboutMeD4')}}
+                    <span>
+                        <a
+                            href="https://blog.marcantoinedion.com"
+                            target="_blank"
+                        >{{$t('aboutMeBlog')}}</a>
+                    </span>
+                </p>
             </div>
         </div>
     </layout>

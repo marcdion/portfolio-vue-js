@@ -5,8 +5,6 @@
 
             <div class="about-me-text">
                 <p class="justify">{{$t('websiteP1')}}</p>
-
-                <p class="justify">{{$t('websiteP2')}} 💋</p>
             </div>
         </div>
     </layout>

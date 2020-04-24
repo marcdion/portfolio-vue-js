@@ -29,13 +29,15 @@ const messages = {
         //About me
         'aboutMeTitle': 'À propos de moi',
         'aboutMeP1': 'Ma passion pour l\'informatique a commencé à l\'âge de 12 ans lorsque je passais mes soirées à démonter de vieux ordinateurs dans ma chambre. Depuis, je suis devenu développeur et j\'ai maintenant la chance de travailler sur les logiciels utilisés par des milliers de personnes à travers le pays.',
-        'aboutMeP2': 'Dans mon rôle actuel de développeur, j\'ai la chance de pouvoir travailler autant en back-end qu\'en front-end de mes projets. J\'ai aussi la chance de pouvoir perfectionner mes compétences en gestion de projet et en relation client. Ces tâches me permettent d\'être un atout dans plusieurs scénarios et me permettent également d\'avoir une compréhension approfondie de l\'ensemble du processus de développement.',
-        'aboutMeP3': 'Je me suis toujours distingué dans mon travail par ma capacité à résoudre des problèmes complexes ainsi que par la passion que je mets dans mon travail.C\'est cette passion qui me permet, par exemple, de surmonter une courbe d\'apprentissage abrupte lorsque je travaille avec un nouvelle technologie ou dans un nouvel écosystème. J\'adore naviguer à travers les obstacles et je suis toujours en mode résolution de problèmes! Parce que lorsque vous investissez du temps et de la débrouillardise, il n\'y a pas de problèmes, il n\'y a que des solutions.',
+        'aboutMeP2': 'Dans mon rôle actuel de développeur, j\'ai la chance de pouvoir travailler autant en back-end qu\'en front-end dans mes projets. J\'ai aussi la chance de pouvoir perfectionner mes compétences en gestion de projet et en relation client. Ces tâches me permettent d\'être un atout dans plusieurs scénarios et me permettent également d\'avoir une compréhension approfondie de l\'ensemble du processus de développement.',
+        'aboutMeP3': 'Je me suis toujours distingué dans mon travail par ma capacité à résoudre des problèmes complexes ainsi que par la passion que je mets dans mon travail. C\'est cette passion qui me permet, par exemple, de surmonter une courbe d\'apprentissage abrupte lorsque je travaille avec un nouvelle technologie ou dans un nouvel écosystème. J\'adore naviguer à travers les obstacles et je suis toujours en mode résolution de problèmes! Parce que lorsque vous investissez du temps et de la débrouillardise, il n\'y a pas de problèmes, il n\'y a que des solutions.',
 
         'aboutMeD1': 'Quand je ne travaille pas sur mes projets personnels ',
         'aboutMeD2': '(vous pouvez en apprendre plus ici)',
         'aboutMeD3': 'Je passe mes hivers sur les pistes de ski, mes étés sur mon vélo de route, et tout le temps entre les deux avec ma merveilleuse copine!',
-        'aboutMeD4': 'J\'aspire un jour à diriger ma compagnie et j\'adore lire et en apprendre plus sur la finance personnelle!',
+        'aboutMeD4': 'J\'aspire un jour à diriger ma propre compagnie et j\'adore lire et en apprendre plus sur la finance personnelle! Je suis quelqu\'un qui adore partager sa passion avec les autres. De temps en temps, j\'écris sur mon',
+        'aboutMeBlog': 'blogue !',
+
 
 
         //Portfolio
@@ -53,13 +55,13 @@ const messages = {
         'wbDesc': 'Ce site web',
 
         //Portfolio - Cache
-        'cacheP1': 'Étant un grand fan de l\'amélioration des finances personnelles, j\'avais vraiment besoin d\'une puissante solution de gestion d\'argent. Bien qu\'il existe de nombreux outils de gestion d\'argent très utiles, je ne veux pas vraiment faire confiance à ces plateformes avec les informations concernant les institutions avec lesquelles je banque. Ils ont certainement plus de connaissances en cybersécurité que moi, cependant, en développant ma propre application je peux faire des choses qui ne serait pas « scalable » pour une entreprise.',
+        'cacheP1': 'Étant un grand fan de l\'amélioration des finances personnelles, j\'avais vraiment besoin d\'une puissante solution de gestion d\'argent. Bien qu\'il existe de nombreux outils de gestion d\'argent très utiles, je ne veux pas vraiment faire confiance à ces plateformes avec les informations concernant les institutions avec lesquelles je banque. Ces plateformes ont certainement plus de connaissances en cybersécurité que moi, cependant, en développant ma propre application je peux faire des choses qui ne serait pas « scalable » pour une entreprise.',
         'cacheL1': 'Voici les principales fonctionnalités que je veux / suis en train de développer:',
         'cacheL1I1': 'Une plateforme centralisée où je peux avoir un aperçu de toutes mes finances',
         'cacheL1I2': 'Un e-mail quotidien qui affiche un résumé des transactions des derniers jours (j\'aime garder un œil sur mes $$$)',
         'cacheL1I3': 'Un outil pour mieux suivre mes investissements',
 
-        'cacheP2': 'Les deux premières fonctionnalités sont assez explicites. Je vais plonger un peu plus en détail dans le dernier car c\'est la fonctionnalité principale de tout ce projet. Mes banques n\'offrent pas beaucoup de détails sur mon portefeuille d\'investissement, je peux voir la valeur de chaque compte à un moment donné, mais c\'est à peu près tout. Je voulais vraiment pouvoir voir un graphique illustrant la progression de mes investissements alors que le marché évolue constamment de haut en bas. Cette fonctionnalité est celle qui m’excite le plus.',
+        'cacheP2': 'Les deux premières fonctionnalités sont assez explicites. Je vais plonger un peu plus en détail dans la dernière car c\'est la fonctionnalité principale de tout ce projet. Mes banques n\'offrent pas beaucoup de détails sur mon portefeuille d\'investissement, je peux voir la valeur de chaque compte à un moment donné, mais c\'est à peu près tout. Je voulais vraiment pouvoir voir un graphique illustrant la progression de mes investissements alors que le marché évolue constamment de haut en bas. Cette fonctionnalité est celle qui m’excite le plus.',
         'cacheL2': 'Voici ce sur quoi je me concentre lorsque je développe:',
         'cacheL2I1': 'Flexibilité qui me permet d\'ajouter facilement de nouvelles sources de données à l\'avenir',
         'cacheL2I2': 'Veiller à ce que mes données soient toujours très sécurisées. Je garde des données très minimales dans la base de données. Je stocke les informations très sensibles (informations de connexion) ailleurs.',
@@ -76,7 +78,7 @@ const messages = {
         //Portfolio - Friction
         'frictionP1': 'Friction est une extension de navigateur que je suis en train de développer et qui vise à améliorer la productivité des utilisateurs. Dans le monde du commerce en ligne, nous parlons de friction lorsque qu’il est question de l\'efficacité d\'un processus de transaction. Par exemple, "Un clic pour acheter" d\'Amazon a une friction très minime. D\'un autre côté, un site Web qui nécessite 7 étapes avant de terminer une commande a beaucoup de friction dans son processus de commande.',
         'frictionP2': 'Le but de cette extension est donc d\'ajouter un friction entre un utilisateur et un site qu\'il essaie d\'éviter d\'utiliser.',
-        'frictionP3': 'L\'idée m\'est venue lorsque j\'ai essayé de réduire mon utilisation de Facebook. J\'ai constaté qu\'en me déconnectant de mon compte chaque fois que je l\'utilisais, cela ajoutait de la friction lorsque j\'essayais de retourner voir mon compte Facebook. Le temps qu\'il me fallait pour entrer mes identifiants de connexion était suffisant pour que mon cerveau me rappelle que je n\'étais pas censé être là et donc je retournais au travail',
+        'frictionP3': 'L\'idée m\'est venue lorsque j\'ai essayé de réduire mon utilisation de Facebook. J\'ai constaté qu\'en me déconnectant de mon compte chaque fois que je l\'utilisais, cela ajoutait de la friction lorsque j\'essayais d\'y retourner. Le temps qu\'il me fallait pour entrer mes identifiants de connexion était suffisant pour que mon cerveau me rappelle que je n\'étais pas censé être là et donc je retournais au travail',
 
         'frictionTS': 'Trucs techniques',
         'frictionAB1': 'De nos jours, la création d\'extensions pour les navigateurs est assez simple. Vous pouvez en apprendre plus dans cette article très intéressant ici:',
@@ -89,7 +91,7 @@ const messages = {
         'frictionL1I3': 'Git',
 
         //Portfolio - PCI
-        'pciP1': 'Ce projet est celui dont je suis le plus fier. Ce n\'est pas le logiciel le plus avancé technologiquement ni le plus compliqué, mais c\'est la première application Web que j\'ai dévelopé qui soit utilisée quotidiennement par de vraies personnes. Je me souviens encore du sentiment d\'exaltation lorsque j\'ai reçu la première notification que quelqu\'un avait activé son compte. Depuis ce moment, je n\'ai pas arréter de vouloir batir plus de trucs cool',
+        'pciP1': 'Ce projet est celui dont je suis le plus fier. Ce n\'est pas le logiciel le plus avancé technologiquement ni le plus compliqué, mais c\'est la première application Web que j\'ai dévelopé qui soit utilisée quotidiennement par de vraies personnes. Je me souviens encore du sentiment d\'exaltation lorsque j\'ai reçu la première notification que quelqu\'un avait activé son compte. Depuis ce moment, je n\'ai pas arréter de vouloir batir plus de trucs cool.',
         'pciP2': 'Cette application a été conçue pour simplifier la vie du restaurateur (fyi: mes parents possèdent quelques restaurants, c\'est là que j\'ai eu mon idée). La principale caractéristique du Portail de commande internet (PCI en abrégé) était de faciliter l\'inventaire et la commande d\'aliments auprès du centre de distribution des franchises. Il est très facile pour le restaurateur d\'envoyer sa commande au centre de distribution et d\'entrer les articles en inventaire une fois qu\'ils sont livrés.',
         'pciTS': 'Trucs techniques',
         'pciL1': 'Outils et principes que j\'ai utilisés pour développer ceci :',
@@ -110,7 +112,7 @@ const messages = {
         'websiteP1': 'J\'ai décidé de l\'ajouter à la liste car, pour être honnête, j\'avais besoin d\'un sixième élément de ma grille pour des raisons de simétrie, mais aussi parce que je suis fier du résultat final.',
 
         //Portfolio - XML
-        'xmlP1': 'Ce petit outil astucieux était très simple à construire mais il est très utile. Lorsque je crée différents projets avec des fichiers de localisation (fichiers pour le support multilingue), j\'ai toujours tendance à me perdre lorsque les fichiers deviennent très volumineux. Cet outil me permet de vérifier que toutes les valeurs sont présentes dans toutes les langues.',
+        'xmlP1': 'Ce petit outil astucieux a été très simple à construire mais il est très utile. Lorsque je crée différents projets avec des fichiers de localisation (fichiers pour le support multilingue), j\'ai toujours tendance à me perdre lorsque les fichiers deviennent très volumineux. Cet outil me permet de vérifier que toutes les valeurs sont présentes dans toutes les langues.',
         'xmlP2': 'Comme je développe habituellement des sites Web pour les utilisateurs français et anglais, cet outil ne prend en charge que la comparaison entre deux langues. J\'aimerais pouvoir prendre en charge plusieurs fichiers à la fois à l\'avenir.',
         'xmlTS': 'Trucs techniques',
         'xmlT': 'Outils que j\'ai utilisés pour construire ceci:',
@@ -121,8 +123,9 @@ const messages = {
         'coolStuffDesc': 'Voici quelques-unes des choses intéressantes que j\'ai accomplies / dont je fais partie:',
 
         //Let's talk
-        'letsTalkTitle': 'Let\'s talk',
-        'letsTalkDesc': 'Si vous trouvez mes trucs intéressants, vous pouvez me contacter via ces méthodes:',
+        'letsTalkTitle': 'Discutons',
+        'letsTalkDesc1': 'Si vous trouvez mes trucs intéressants, vous pouvez en apprendre plus sur moi en visitant mon ',
+        'letsTalkDesc2': 'Vous pouvez aussi me contacter via ces méthodes: ',
 
         'stayTuned': ' Restez à l\'écoute pour les mises à jour!'
     },
@@ -158,7 +161,9 @@ const messages = {
         'aboutMeD1': 'When i\'m not working on my personnal projects ',
         'aboutMeD2': '(you can learn more here)',
         'aboutMeD3': 'I spend my winters on the ski slopes, my summers on my road bike, and all the time in between with my wonderful girlfriend!',
-        'aboutMeD4': 'I one day aspire to run my own software company and I love reading and learning about personnal finance!',
+        'aboutMeD4': 'I one day aspire to run my own software company and I love reading and learning about personnal finance! I am someone who loves to share his passion with other, which has led me to create a ',
+        'aboutMeBlog': 'blog !',
+
 
         //Portfolio
         'portfolioPageTitle': 'Personnal projects',
@@ -245,7 +250,9 @@ const messages = {
 
         //Let's talk
         'letsTalkTitle': 'Let\'s talk',
-        'letsTalkDesc': 'If you find any of my stuff interesting, or you simply want to here some bad dad jokes, you can reach out via these methods: ',
+        'letsTalkDesc1': 'If you find any of my stuff interesting, you can learn more about me and what passionates me on my',
+        'letsTalkDesc2': 'You can also reach out via these methods:  ',
+
 
         'stayTuned': ' Stay tuned for updates !'
     }

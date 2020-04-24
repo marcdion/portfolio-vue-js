@@ -4,8 +4,16 @@
             <div class="hello">🦜 {{$t('letsTalkTitle')}}</div>
 
             <div class="about-me-text">
-                <p class="justify">{{$t('letsTalkDesc')}}</p>
-
+                <p class="justify">
+                    {{$t('letsTalkDesc1')}}
+                    <span>
+                        <a
+                            href="https://blog.marcantoinedion.com"
+                            target="_blank"
+                        >{{$t('aboutMeBlog')}}</a>
+                    </span>
+                    {{$t('letsTalkDesc2')}}
+                </p>
                 <div class="social-container">
                     <div class="social">
                         <a href="https://github.com/marcdion" target="_blank">

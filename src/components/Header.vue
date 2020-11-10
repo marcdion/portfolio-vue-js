@@ -45,7 +45,7 @@
                         >{{$t('navContact')}}</router-link>
                     </li>
                     <li v-if="secondaryNav" class="nav-item">
-                        <a href="https://blog.marcantoinedion.com" class="nav-link active">Blog</a>
+                        <a href="https://www.thewannabeceo.com" class="nav-link active">Blog</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a

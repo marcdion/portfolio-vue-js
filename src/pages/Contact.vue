@@ -8,7 +8,7 @@
                     {{$t('letsTalkDesc1')}}
                     <span>
                         <a
-                            href="https://blog.marcantoinedion.com"
+                            href="https://www.thewannabeceo.com"
                             target="_blank"
                         >{{$t('aboutMeBlog')}}</a>
                     </span>

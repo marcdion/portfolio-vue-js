@@ -1,7 +1,7 @@
 <template>
     <layout :classes="classes" :secondaryNav="true" routeName="/cool-stuff">
         <div class="greeting">
-            <div class="hello">👋 {{$t('coolStuffTitle')}}</div>
+            <div class="hello">👋🏼 {{$t('coolStuffTitle')}}</div>
 
             <div class="about-me-text">
                 <p>{{$t('coolStuffDesc')}}</p>

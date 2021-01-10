@@ -1,0 +1,40 @@
+.book-list{
+    .section-title{
+        margin-bottom: 5px;
+        
+        font: {
+            weight: 700;
+            size: 18px;
+        }
+    }
+
+    ul{
+        list-style-type: none;
+        padding-left: 15px;
+
+        li{
+            padding-bottom: 2px;
+
+            a{
+                color: black;
+                font-size: 18px;
+
+                &.read{
+                    color: #909090;
+                    font-style: italic;
+                }
+
+                .check{
+                    font-style: normal !important;
+                    padding-right: 8px;
+                }
+
+                .title{
+                    font-weight: 700;
+
+                    padding-left: 3px;
+                }
+            }
+        }
+    }
+}

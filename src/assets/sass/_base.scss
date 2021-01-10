@@ -13,7 +13,24 @@ header {
 
     .navbar-collapse {
       .navbar-nav {
+        align-items: center;
+
         .nav-item {
+          &.blog-cta{
+            margin-right: 15px;
+
+            a{
+              font-weight: 700;
+
+              background-color: #FFDD00;
+              border-color: #FFDD00;      
+
+              &:hover{
+                background-color: #F2D100;
+              }
+            }
+          }
+
           a {
             font-size: 20px;
             color: black;
@@ -36,7 +53,7 @@ header {
   justify-content: center;
   align-items: center;
 
-  &.about {
+  &.about, &.books, &.uses {
     align-items: flex-start;
     padding-top: 100px;
 
@@ -51,6 +68,12 @@ header {
         width: 55%;
       }
     }
+
+    .disclaimer{
+      font-size: 16px;
+      color: #A9A9A9;
+      font-style: italic;
+    }
   }
 
   &.portfolio {
@@ -61,7 +84,34 @@ header {
       width: 95%;
 
       @include xl {
-        width: 55%;
+        width: 75%;
+      }
+    }
+  }
+
+  &.books {
+    .intro {
+      margin-bottom: 30px;
+
+      .justify {
+        font-size: 16px;
+        
+        margin-bottom: 15px;
+
+        &.disclaimer{
+          font-size: 16px;
+          color: #A9A9A9;
+          font-style: italic;
+
+          margin-bottom: 25px;
+        }
+      }
+    }
+
+    .kindle{
+      a {
+          color: black;
+          font-weight: 700;
       }
     }
   }
@@ -108,7 +158,6 @@ header {
       .cta {
         display: flex;
         flex-direction: column;
-        width: 130px;
         width: max-content;
 
         @include md {
@@ -121,6 +170,16 @@ header {
           margin-top: 7px;
           margin-right: 10px;
           font-size: 20px;
+
+          &.btn-light{
+            background-color: #E8E8E8;
+            border-color: #E8E8E8;
+
+            &:hover{
+              background-color: #DCDCDC;
+              border-color: #DCDCDC;
+            }
+          }
         }
       }
 
@@ -236,4 +295,30 @@ header {
 
 .dropdown-toggle {
   font-weight: 700 !important;
+}
+
+.wanna-be-ceo{
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+
+  color: black;
+
+  font: {
+    size: 22px;
+    weight: 700;
+  }
+
+  &:hover{
+    color: black
+  }
+}
+
+.external-link{
+  color: black;
+  font-weight: 700;
+
+  &:hover{
+    color: black;
+  }
 }

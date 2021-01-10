@@ -35,6 +35,18 @@ let router = new Router({
             component: () =>
                 import( /* webpackChunkName: "About" */ "./pages/CoolStuff.vue"),
         },
+        {
+            path: "/books",
+            name: "books",
+            component: () =>
+                import( /* webpackChunkName: "About" */ "./pages/Books.vue"),
+        },
+        {
+            path: "/uses",
+            name: "uses",
+            component: () =>
+                import( /* webpackChunkName: "About" */ "./pages/Uses.vue"),
+        },
 
         //Portfolio
         {
@@ -44,10 +56,10 @@ let router = new Router({
                 import( /* webpackChunkName: "Portfolio" */ "./pages/portfolio/Portfolio.vue"),
         },
         {
-            path: "/portfolio/friction",
-            name: "portfolio-friction",
+            path: "/portfolio/blog",
+            name: "portfolio-blog",
             component: () =>
-                import( /* webpackChunkName: "Friction" */ "./pages/portfolio/Friction.vue"),
+                import( /* webpackChunkName: "Friction" */ "./pages/portfolio/Blog.vue"),
         },
         {
             path: "/portfolio/cache",
@@ -73,6 +85,12 @@ let router = new Router({
             component: () =>
                 import( /* webpackChunkName: "PCI" */ "./pages/portfolio/Website.vue"),
         },
+
+        //Utility
+        {
+            path: '/blog',
+            beforeEnter() {location.href = 'https://www.thewannabeceo.com'}
+       }
     ],
 });
 

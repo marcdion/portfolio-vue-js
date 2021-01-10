@@ -45,7 +45,27 @@
                         >{{$t('navContact')}}</router-link>
                     </li>
                     <li v-if="secondaryNav" class="nav-item">
+                        <router-link
+                            to="books"
+                            class="nav-link"
+                            v-bind:class="{'active': setActive('/books')}"
+                        >{{$t('navBooks')}}</router-link>
+                    </li>
+                    <li v-if="secondaryNav" class="nav-item">
+                        <router-link
+                            to="uses"
+                            class="nav-link"
+                            v-bind:class="{'active': setActive('/uses')}"
+                        >{{$t('navUses')}}</router-link>
+                    </li>
+                    <li v-if="secondaryNav" class="nav-item">
                         <a href="https://www.thewannabeceo.com" class="nav-link active">Blog</a>
+                    </li>
+                    <li v-if="!secondaryNav" class="nav-item blog-cta">
+                        <router-link v-if="!secondaryNav"
+                            to="/blog"
+                            class="btn btn-warning animate__animated animate__bounceInDown"
+                        >{{$t('navSubscribeToTheBlog')}}</router-link>
                     </li>
                     <li class="nav-item dropdown">
                         <a

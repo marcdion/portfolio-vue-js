@@ -1,7 +1,7 @@
 <template>
     <layout :classes="classes" :secondaryNav="true" routeName="/about">
         <div class="greeting">
-            <div class="hello">👋 {{$t('aboutMeTitle')}}</div>
+            <div class="hello">👋🏼 {{$t('aboutMeTitle')}}</div>
 
             <div class="about-me-text">
                 <p class="justify">{{$t('aboutMeP1')}}</p>

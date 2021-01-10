@@ -77,20 +77,8 @@ const messages = {
         'cacheL3I3': 'Vue Js',
         'cacheL3I4': 'Test driven development',
 
-        //Portfolio - Friction
-        'frictionP1': 'Friction est une extension de navigateur que je suis en train de développer et qui vise à améliorer la productivité des utilisateurs. Dans le monde du commerce en ligne, nous parlons de friction lorsque qu’il est question de l\'efficacité d\'un processus de transaction. Par exemple, "Un clic pour acheter" d\'Amazon a une friction très minime. D\'un autre côté, un site Web qui nécessite 7 étapes avant de terminer une commande a beaucoup de friction dans son processus de commande.',
-        'frictionP2': 'Le but de cette extension est donc d\'ajouter un friction entre un utilisateur et un site qu\'il essaie d\'éviter d\'utiliser.',
-        'frictionP3': 'L\'idée m\'est venue lorsque j\'ai essayé de réduire mon utilisation de Facebook. J\'ai constaté qu\'en me déconnectant de mon compte chaque fois que je l\'utilisais, cela ajoutait de la friction lorsque j\'essayais d\'y retourner. Le temps qu\'il me fallait pour entrer mes identifiants de connexion était suffisant pour que mon cerveau me rappelle que je n\'étais pas censé être là et donc je retournais au travail',
-
-        'frictionTS': 'Trucs techniques',
-        'frictionAB1': 'De nos jours, la création d\'extensions pour les navigateurs est assez simple. Vous pouvez en apprendre plus dans cette article très intéressant ici:',
-        'frictionClick': 'cliquez moi!',
-        'frictionAB2': 'Après avoir déployé mon extension sur les principaux navigateurs, j\'aimerais pouvoir m\'intégrer à la fonctionnalité de temps d\'écran d\'Apple pour ajouter une autre façon de restreindre l\'accès des utilisateurs.',
-
-        'frictionL1': 'J\'utilise actuellement ces outils:',
-        'frictionL1I1': 'TypeScript',
-        'frictionL1I2': 'Vue Js',
-        'frictionL1I3': 'Git',
+        //Portfolio - Blog
+        'blogP1': 'Last year, I got the opportunity to go on a radio show for the company I worked for at the time. I did a segment on our personal data on the web and one on AI (you can check them out here). I left the station with one of the biggest emotional highs ever. It felt awesome. Since then, I have been chasing that feeling. I know that writing isn\'t the same as talking into a microphone but my end goal is simply to share my knowledge and inspire others, whatever the platform is. And who knows, maybe one day this will evolve into something more 🎤',
 
         //Portfolio - PCI
         'pciP1': 'Ce projet est celui dont je suis le plus fier. Ce n\'est pas le logiciel le plus avancé technologiquement ni le plus compliqué, mais c\'est la première application Web que j\'ai dévelopé qui soit utilisée quotidiennement par de vraies personnes. Je me souviens encore du sentiment d\'exaltation lorsque j\'ai reçu la première notification que quelqu\'un avait activé son compte. Depuis ce moment, je n\'ai pas arréter de vouloir batir plus de trucs cool.',
@@ -193,7 +181,7 @@ const messages = {
         'inProgress': 'in progress',
         'completed': 'completed',
 
-        'frictionDesc': 'Friction is a browser extension that increases a users productivity on the web',
+        'theWannaBeCEODesc': 'Blog about my journey to one day becoming a successful entrepreneur!',
         'cacheDesc': 'Cache is a money management tool I am currently building for myself',
         'pciDesc': 'PCI is an app used by restaurants to place orders at their chains distribution center!',
         'xmlDesc': 'XML localization diff is a tool I built that helps me manage XML localization files ',
@@ -221,21 +209,9 @@ const messages = {
         'cacheL3I3': 'Vue Js',
         'cacheL3I4': 'Test driven development (this is always a must for me)',
 
-        //Portfolio - Friction
-        'frictionP1': 'Friction is a web broswer extension I am currently building that aims to improve users productivity. In the financial world, we talk about friction when we mean the efficiency of a transactions process. For example, Amazon\'s "One click to buy" has very minimal friction.On the other hand, a website that requires 7 steps before completing an order has a lot of friction.',
-        'frictionP2': 'So the aim of this extension is to add friction between a user and a webiste he is trying to avoid using because it hampers on his productivity. It goes against most website blockers who literally prevents you from accessing a website.',
-        'frictionP3': 'The idea came to me when I tried to reduce my Facebook usage. I found that by signing out of my account each time I used it added friction when I tried to go back and check my Facebook feed. The time it took me to retrieve my password and login was enough for my brain to remind me that I wasn\'t supposed to be there and so I went back to the task I was working on.This is where the idea for friction was born!',
-
-        'frictionTS': 'Technical stuff',
-        'frictionAB1': 'Nowadays, building extensions for web broswsers is pretty simple. You can learn more about in this very interesting article here:',
-        'frictionClick': 'click me!',
-        'frictionAB2': 'After deploying my extension to major browser, I would love to able to integrate with Apple\'s Screen time functionnality to add another way of restricting users access.',
-
-        'frictionL1': 'I am currently using these tools to build out the extensions for the different browsers:',
-        'frictionL1I1': 'TypeScript',
-        'frictionL1I2': 'Vue Js',
-        'frictionL1I3': 'Git',
-
+        //Portfolio - Blog
+        'blogP1': 'Last year, I got the opportunity to go on a radio show for the company I worked for at the time. I did a segment on our personal data on the web and one on AI (you can check them out here). I left the station with one of the biggest emotional highs ever. It felt awesome. Since then, I have been chasing that feeling. I know that writing isn\'t the same as talking into a microphone but my end goal is simply to share my knowledge and inspire others, whatever the platform is. And who knows, maybe one day this will evolve into something more 🎤',
+        
         //Portfolio - PCI
         'pciP1': 'This project is the one I am most proud of. It is not the most technologically advanced piece of software nor the most complicated one, but it is the first web application I ever built that was being used by real people on a day to day basis. I still remeber the feeling of exhiliration when I received the first notification that someone had activated their account. Ever since then, I was hooked!',
         'pciP2': 'This application was built to simplify the life of restaurant owner (fyi: My parents own a few restaurants, this is where I got my idea). The main feature of the Portail de commande internet (PCI for short) was to facilitate the stock keeping and ordering supplies from the franchises distribution center. It is really easy for the owner to send his order to the distribution center and to track the items once they are delivered.',

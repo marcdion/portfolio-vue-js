@@ -12,8 +12,8 @@
 
             <div class="portfolio-landing-container">
                 <div class="row">
-                    <portfolio-item title="The Wanna Be CEO" route="portfolio-friction">
-                        <p class="card-text">{{$t('frictionDesc')}}</p>
+                    <portfolio-item title="The Wanna Be CEO" route="portfolio-blog">
+                        <p class="card-text">{{$t('theWannaBeCEODesc')}}</p>
                         <div class="d-flex justify-content-start align-items-center">
                             <small class="text-muted">{{$t('inProgress')}}</small>
                         </div>

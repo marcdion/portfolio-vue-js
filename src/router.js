@@ -56,10 +56,10 @@ let router = new Router({
                 import( /* webpackChunkName: "Portfolio" */ "./pages/portfolio/Portfolio.vue"),
         },
         {
-            path: "/portfolio/friction",
-            name: "portfolio-friction",
+            path: "/portfolio/blog",
+            name: "portfolio-blog",
             component: () =>
-                import( /* webpackChunkName: "Friction" */ "./pages/portfolio/Friction.vue"),
+                import( /* webpackChunkName: "Friction" */ "./pages/portfolio/Blog.vue"),
         },
         {
             path: "/portfolio/cache",

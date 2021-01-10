@@ -12,7 +12,7 @@
 
             <div class="portfolio-landing-container">
                 <div class="row">
-                    <portfolio-item title="Friction" route="portfolio-friction">
+                    <portfolio-item title="The Wanna Be CEO" route="portfolio-friction">
                         <p class="card-text">{{$t('frictionDesc')}}</p>
                         <div class="d-flex justify-content-start align-items-center">
                             <small class="text-muted">{{$t('inProgress')}}</small>
@@ -53,7 +53,7 @@
                         </div>
                     </portfolio-item>
 
-                    <portfolio-item title="Website & Blog" route="portfolio-website">
+                    <portfolio-item title="Website" route="portfolio-website">
                         <p class="card-text">{{$t('wbDesc')}}</p>
                         <div class="d-flex justify-content-start align-items-center">
                             <div class="d-flex justify-content-between align-items-center">

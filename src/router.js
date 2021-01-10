@@ -35,6 +35,18 @@ let router = new Router({
             component: () =>
                 import( /* webpackChunkName: "About" */ "./pages/CoolStuff.vue"),
         },
+        {
+            path: "/books",
+            name: "books",
+            component: () =>
+                import( /* webpackChunkName: "About" */ "./pages/Books.vue"),
+        },
+        {
+            path: "/uses",
+            name: "uses",
+            component: () =>
+                import( /* webpackChunkName: "About" */ "./pages/Uses.vue"),
+        },
 
         //Portfolio
         {
@@ -73,6 +85,12 @@ let router = new Router({
             component: () =>
                 import( /* webpackChunkName: "PCI" */ "./pages/portfolio/Website.vue"),
         },
+
+        //Utility
+        {
+            path: '/blog',
+            beforeEnter() {location.href = 'https://www.thewannabeceo.com'}
+       }
     ],
 });
 

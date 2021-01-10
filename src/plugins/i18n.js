@@ -19,12 +19,16 @@ const messages = {
         'homeNavPortfolio': 'Portfolio',
         'homeNavCoolStuff': 'Trucs cool',
         'homeNavContact': 'Contactez moi',
+        'homeNavBooks': 'Bibliothèque',
 
         //Nav
         'navAbout': 'À propos',
         'navPortfolio': 'Portfolio',
-        'navCoolStuff': 'Trucs cool',
+        'navCoolStuff': 'Radio',
         'navContact': 'Contactez moi',
+        'navSubscribeToTheBlog': 'Mon blogue',
+        'navBooks': 'Bibliothèque',
+        'navUses': 'Tech stack',
 
         //About me
         'aboutMeTitle': 'À propos de moi',
@@ -37,8 +41,6 @@ const messages = {
         'aboutMeD3': 'Je passe mes hivers sur les pistes de ski, mes étés sur mon vélo de route, et tout le temps entre les deux avec ma merveilleuse copine!',
         'aboutMeD4': 'J\'aspire un jour à diriger ma propre compagnie et j\'adore lire et en apprendre plus sur la finance personnelle! Je suis quelqu\'un qui adore partager sa passion avec les autres. De temps en temps, j\'écris sur mon',
         'aboutMeBlog': 'blogue !',
-
-
 
         //Portfolio
         'portfolioPageTitle': 'Projets personnels',
@@ -127,6 +129,20 @@ const messages = {
         'letsTalkDesc1': 'Si vous trouvez mes trucs intéressants, vous pouvez en apprendre plus sur moi en visitant mon ',
         'letsTalkDesc2': 'Vous pouvez aussi me contacter via ces méthodes: ',
 
+        //Books
+        'booksTitle': 'Livres que je lis / ai lu',
+        'booksDisclaimer': '*Je reçois des commissions pour les achats effectués via les liens de cet article.',
+        'booksP1': 'Comme la plupart d’entre nous, j’ai été obligé de lire beaucoup de livres que je n’aimais pas à l’école. Malheureusement, cela m\'a forcé à voir la lecture comme une corvée au lieu de quelque chose que je pouvais apprécier. Alors que je commençais à vouloir devenir une meilleure version de moi-même, j\'ai remplacé le temps considérable que je passais sur les réseaux sociaux par la lecture de livres sur différents sujets dont ceux sur le développement personnel. J\'ai commencé à lire de plus en plus et j’ai rapidement pris gout à lire pour le plaisir!',
+        'booksP2': 'Voici une liste à jour des livres que j\'ai lus / que j\'ai l\'intention de lire au cours de la prochaine année. Je les recommande tous. Vous pouvez les consulter sur Amazon en utilisant la liste ci-dessous, je vous recommande également vraiment d\'investir dans un Kindle si vous voulez commencer à prendre la lecture au sérieux. 😃',
+        'booksSectionTitle1': 'Non fiction',
+        'booksSectionTitle2': 'Fiction',
+
+        'kindleRecommendation1': 'Voiçi est le lien pour le ',
+        'kindleRecommendation2': ' que j\'utilise et que je recommande!',
+
+        //Uses
+        'usesTitle': 'Outils et logiciels que j\'utilise',
+
         'stayTuned': ' Restez à l\'écoute pour les mises à jour!'
     },
 
@@ -143,14 +159,20 @@ const messages = {
         'whatIdo': 'A full stack web developer living in Quebec City',
         'homeNavAbout': 'About me',
         'homeNavPortfolio': 'Portfolio',
-        'homeNavCoolStuff': 'Cool stuff',
+        'homeNavCoolStuff': 'Radio',
         'homeNavContact': 'Contact',
+        'homeNavBooks': 'Books i\'m reading',
+        'homeNavUses': 'Tech stack',
 
         //Nav
         'navAbout': 'About me',
         'navPortfolio': 'Portfolio',
-        'navCoolStuff': 'Cool stuff',
+        'navCoolStuff': 'Radio',
         'navContact': 'Let\'s talk',
+        'navBooks': 'Library',
+        'navUses': 'Tech stack',
+
+        'navSubscribeToTheBlog': 'Check out the blog',
 
         //About me
         'aboutMeTitle': 'A little about me',
@@ -163,7 +185,6 @@ const messages = {
         'aboutMeD3': 'I spend my winters on the ski slopes, my summers on my road bike, and all the time in between with my wonderful girlfriend!',
         'aboutMeD4': 'I one day aspire to run my own software company and I love reading and learning about personnal finance! I am someone who loves to share his passion with other, which has led me to create a ',
         'aboutMeBlog': 'blog !',
-
 
         //Portfolio
         'portfolioPageTitle': 'Personnal projects',
@@ -253,6 +274,19 @@ const messages = {
         'letsTalkDesc1': 'If you find any of my stuff interesting, you can learn more about me and what passionates me on my',
         'letsTalkDesc2': 'You can also reach out via these methods:  ',
 
+        //Books
+        'booksTitle': 'Books I plan on reading / have read',
+        'booksDisclaimer': '*I get commissions for purchases made through links in this post.',
+        'booksP1': 'Like most of us, I was forced to read a lot of books I didn\'t like in school. This forced me to see reading as a chore instead of something I could enjoy. As I started to want to become a better version of myself, I replaced the huge amount of time I spend on social media by reading personal development books. I started reading more and more and quickly became an avid reader!',
+        'booksP2': ' Here is an up to date list of books I have read / plan to read during the next year. I recommend all of them. You can check them out on Amazon using the list below, I also really recommend investing in a Kindle if you want to start to take reading seriously. 😃',
+        'booksSectionTitle1': 'Non fiction',
+        'booksSectionTitle2': 'Fiction',
+
+        'kindleRecommendation1': 'Here is the link to the ',
+        'kindleRecommendation2': ' I personnaly use and highly recommend!',
+
+        //Uses
+        'usesTitle': 'Tech and tools I use',
 
         'stayTuned': ' Stay tuned for updates !'
     }

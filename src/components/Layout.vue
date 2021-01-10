@@ -7,6 +7,7 @@
             <div class="main-container">
                 <slot></slot>
             </div>
+            <a href="https://twitter.com/thewannabeceo" target="_blank" class="wanna-be-ceo">@thewannabeceo</a>
         </main>
     </div>
 </template>

@@ -4,6 +4,7 @@ import router from './router'
 
 import i18n from '@/plugins/i18n';
 import Toasted from 'vue-toasted';
+import underscore from 'vue-underscore';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '@/assets/sass/_styles.scss';
@@ -13,8 +14,9 @@ import {
     FontAwesomeIcon
 } from '@fortawesome/vue-fontawesome'
 
-Vue.component('font-awesome-icon', FontAwesomeIcon)
-Vue.use(Toasted)
+Vue.component('font-awesome-icon', FontAwesomeIcon);
+Vue.use(Toasted);
+Vue.use(underscore);
 
 require('dotenv').config()
 Vue.config.productionTip = false
